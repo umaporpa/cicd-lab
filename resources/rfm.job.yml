@@ -11,7 +11,7 @@ resources:
       tasks:
         - task_key: 00_setup
           notebook_task:
-            notebook_path: /Workspace/Users/umaporpa@ais.co.th/.bundle/ais016_2/dev/files/src/00_setup
+            notebook_path: ../src/audit_quality.py
             source: WORKSPACE
           existing_cluster_id: 0318-031919-b3fa4xtr
         - task_key: 01_init
