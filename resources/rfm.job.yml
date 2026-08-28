@@ -27,7 +27,7 @@ resources:
           depends_on:
             - task_key: 02_preprocessing
           notebook_task:
-            notebook_path: ../src/03_model_training.ipynb
+            notebook_path: ../src/03_model_traning.ipynb
             source: WORKSPACE
           existing_cluster_id: 0318-031919-b3fa4xtr
 
